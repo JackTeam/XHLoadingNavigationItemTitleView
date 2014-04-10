@@ -9,17 +9,17 @@
 #import "UIViewController+XHLoadingNavigationItemTitle.h"
 #import <objc/runtime.h>
 
-static NSString * const kXHNavigationItemTitleViewObjectKey = @"kXHNavigationItemTitleViewObjectKey";
+static NSString * const kXHloadingNavigationItemTitleViewKey = @"kXHloadingNavigationItemTitleViewKey";
 
 @implementation UIViewController (XHLoadingNavigationItemTitle)
 
 
-- (void)setNavigationItemLadingTitleView:(XHNavigationItemLadingTitleView *)navigationItemLadingTitleView {
-    objc_setAssociatedObject(self, &kXHNavigationItemTitleViewObjectKey, navigationItemLadingTitleView, OBJC_ASSOCIATION_RETAIN);
+- (void)setLoadingNavigationItemTitleView:(XHLoadingNavigationItemTitleView *)loadingNavigationItemTitleView {
+    objc_setAssociatedObject(self, &kXHloadingNavigationItemTitleViewKey, loadingNavigationItemTitleView, OBJC_ASSOCIATION_RETAIN);
 }
 
-- (XHNavigationItemLadingTitleView *)navigationItemLadingTitleView {
-    return objc_getAssociatedObject(self, &kXHNavigationItemTitleViewObjectKey);
+- (XHLoadingNavigationItemTitleView *)loadingNavigationItemTitleView {
+    return objc_getAssociatedObject(self, &kXHloadingNavigationItemTitleViewKey);
 }
 
 + (void)load {
@@ -54,21 +54,21 @@ static NSString * const kXHNavigationItemTitleViewObjectKey = @"kXHNavigationIte
 }
 
 - (void)startAnimationTitle {
-    [self.navigationItemLadingTitleView startAnimating];
+    [self.loadingNavigationItemTitleView startAnimating];
 }
 
 - (void)stopAnimationTitle {
-    [self.navigationItemLadingTitleView stopAnimating];
+    [self.loadingNavigationItemTitleView stopAnimating];
 }
 
 - (void)setAnimatedTitle:(NSString *)title {
     [self setAnimatedTitle:title];
-    XHNavigationItemLadingTitleView *navigationItemTitleView = [XHNavigationItemLadingTitleView initNavigationItemTitleView];
-    [navigationItemTitleView setTitle:title];
-    navigationItemTitleView.titleColor = [UIColor blackColor];
-    self.navigationItem.titleView = navigationItemTitleView;
+    XHLoadingNavigationItemTitleView *loadingNavigationItemTitleView = [XHLoadingNavigationItemTitleView initNavigationItemTitleView];
+    [loadingNavigationItemTitleView setTitle:title];
+    loadingNavigationItemTitleView.titleColor = [UIColor blackColor];
+    self.navigationItem.titleView = loadingNavigationItemTitleView;
     
-    self.navigationItemLadingTitleView = navigationItemTitleView;
+    self.loadingNavigationItemTitleView = loadingNavigationItemTitleView;
 }
 
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XHNavigationItemLadingTitleView.h"
+#import "XHLoadingNavigationItemTitleView.h"
 
 @interface UIViewController (XHLoadingNavigationItemTitle)
 
-@property (nonatomic, strong) XHNavigationItemLadingTitleView *navigationItemLadingTitleView;
+@property (nonatomic, strong) XHLoadingNavigationItemTitleView *loadingNavigationItemTitleView;
 
 - (void)startAnimationTitle;
 - (void)stopAnimationTitle;
