@@ -1,4 +1,4 @@
-![image](https://github.com/JackTeam/XHLoadingNavigationItemTitleView/raw/master/Screenshots/XHNavigationItemLadingTitleView.gif)
+![image](https://github.com/JackTeam/XHLoadingNavigationItemTitleView/raw/master/Screenshots/XHLoadingNavigationItemTitleView.gif)
 
 ===============================
 XHLoadingNavigationItemTitleView is show title conver to method swizzling display loading HUD.
