@@ -14,10 +14,6 @@
 		74FC21BF18F66A3E002B55A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74FC21BD18F66A3E002B55A5 /* InfoPlist.strings */; };
 		74FC21C118F66A3E002B55A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21C018F66A3E002B55A5 /* main.m */; };
 		74FC21C518F66A3E002B55A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21C418F66A3E002B55A5 /* AppDelegate.m */; };
-		74FC21C818F66A3E002B55A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FC21C618F66A3E002B55A5 /* Main.storyboard */; };
-		74FC21CB18F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21C918F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodeld */; };
-		74FC21CE18F66A3E002B55A5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21CD18F66A3E002B55A5 /* MasterViewController.m */; };
-		74FC21D118F66A3E002B55A5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21D018F66A3E002B55A5 /* DetailViewController.m */; };
 		74FC21D318F66A3E002B55A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FC21D218F66A3E002B55A5 /* Images.xcassets */; };
 		74FC21DA18F66A3E002B55A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FC21D918F66A3E002B55A5 /* XCTest.framework */; };
 		74FC21DB18F66A3E002B55A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FC21B218F66A3E002B55A5 /* Foundation.framework */; };
@@ -52,12 +48,6 @@
 		74FC21C218F66A3E002B55A5 /* XHNavigationItemLadingTitleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHNavigationItemLadingTitleView-Prefix.pch"; sourceTree = "<group>"; };
 		74FC21C318F66A3E002B55A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74FC21C418F66A3E002B55A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74FC21C718F66A3E002B55A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		74FC21CA18F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XHNavigationItemLadingTitleView.xcdatamodel; sourceTree = "<group>"; };
-		74FC21CC18F66A3E002B55A5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		74FC21CD18F66A3E002B55A5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		74FC21CF18F66A3E002B55A5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		74FC21D018F66A3E002B55A5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		74FC21D218F66A3E002B55A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74FC21D818F66A3E002B55A5 /* XHNavigationItemLadingTitleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHNavigationItemLadingTitleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FC21D918F66A3E002B55A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,13 +125,7 @@
 			children = (
 				74FC21C318F66A3E002B55A5 /* AppDelegate.h */,
 				74FC21C418F66A3E002B55A5 /* AppDelegate.m */,
-				74FC21C618F66A3E002B55A5 /* Main.storyboard */,
-				74FC21CC18F66A3E002B55A5 /* MasterViewController.h */,
-				74FC21CD18F66A3E002B55A5 /* MasterViewController.m */,
-				74FC21CF18F66A3E002B55A5 /* DetailViewController.h */,
-				74FC21D018F66A3E002B55A5 /* DetailViewController.m */,
 				74FC21D218F66A3E002B55A5 /* Images.xcassets */,
-				74FC21C918F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodeld */,
 				74FC21BB18F66A3E002B55A5 /* Supporting Files */,
 			);
 			path = XHNavigationItemLadingTitleView;
@@ -268,7 +252,6 @@
 			files = (
 				74FC21D318F66A3E002B55A5 /* Images.xcassets in Resources */,
 				74FC21BF18F66A3E002B55A5 /* InfoPlist.strings in Resources */,
-				74FC21C818F66A3E002B55A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FC21D118F66A3E002B55A5 /* DetailViewController.m in Sources */,
 				74FC21F918F66B1B002B55A5 /* UIViewController+XHLoadingNavigationItemTitle.m in Sources */,
 				74FC21F318F66AAB002B55A5 /* XHNavigationItemLadingTitleView.m in Sources */,
-				74FC21CE18F66A3E002B55A5 /* MasterViewController.m in Sources */,
 				74FC21C518F66A3E002B55A5 /* AppDelegate.m in Sources */,
 				74FC21C118F66A3E002B55A5 /* main.m in Sources */,
 				74FC21F618F66AE8002B55A5 /* TYDotIndicatorView.m in Sources */,
-				74FC21CB18F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +303,6 @@
 				74FC21BE18F66A3E002B55A5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		74FC21C618F66A3E002B55A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74FC21C718F66A3E002B55A5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		74FC21E318F66A3E002B55A5 /* InfoPlist.strings */ = {
@@ -511,19 +483,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		74FC21C918F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				74FC21CA18F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodel */,
-			);
-			currentVersion = 74FC21CA18F66A3E002B55A5 /* XHNavigationItemLadingTitleView.xcdatamodel */;
-			path = XHNavigationItemLadingTitleView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 74FC21A718F66A3E002B55A5 /* Project object */;
 }
