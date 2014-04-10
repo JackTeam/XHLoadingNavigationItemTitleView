@@ -16,16 +16,17 @@
 
 - (void)loadDataSource {
     [self startAnimationTitle];
+    [self performSelector:@selector(doneLoadDataSource) withObject:nil afterDelay:2];
 }
 
 - (void)doneLoadDataSource {
     [self stopAnimationTitle];
+    [self performSelector:@selector(loadDataSource) withObject:nil afterDelay:1];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     [self loadDataSource];
-    [self performSelector:@selector(doneLoadDataSource) withObject:nil afterDelay:3];
 }
 
 - (void)viewDidLoad
