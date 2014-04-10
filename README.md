@@ -29,9 +29,34 @@ pod 'XHNavigationItemLadingTitleView', '~> 0.1.0'
 
 2. set the Controller title in viewDidLoad method, like normal setter.       
 
+
 3. you can call startAnimationTitle display loading HUD for loadDatasource.         
 
+
 4. you can call stopAnimationTitle hide loading HUD for Done loadDataSource.         
+
+
+Finally look the code:
+
+- (void)loadDataSource {
+    [self startAnimationTitle];
+}
+
+- (void)doneLoadDataSource {
+    [self stopAnimationTitle];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self loadDataSource];
+    [self performSelector:@selector(doneLoadDataSource) withObject:nil afterDelay:3];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.title = @"Detail";
+}
 
 
 ```
