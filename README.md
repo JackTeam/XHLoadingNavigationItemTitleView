@@ -1,8 +1,6 @@
 ![image](https://github.com/JackTeam/XHNavigationItemLadingTitleView/raw/master/Screenshots/XHNavigationItemLadingTitleView.gif)
 
-XHNavigationItemLadingTitleView
 ===============================
-
 XHNavigationItemLadingTitleView is show title conver to method swizzling display loading HUD.
 
 
@@ -26,7 +24,7 @@ pod 'XHNavigationItemLadingTitleView', '~> 0.1.0'
 ## How to use ##
 ```objc
 
-1. #import "UIViewController+XHLoadingNavigationItemTitle.h" to your Controller header        
+1. import "UIViewController+XHLoadingNavigationItemTitle.h" to your Controller header        
 
 
 2. set the Controller title in viewDidLoad method, like normal setter.       
