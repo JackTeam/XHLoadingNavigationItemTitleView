@@ -35,10 +35,18 @@
     }
 }
 
+- (void)loadDataSource {
+    [self startAnimationTitle];
+}
+
+- (void)doneLoadDataSource {
+    [self stopAnimationTitle];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [self startAnimationTitle];
-    [self performSelector:@selector(stopAnimationTitle) withObject:nil afterDelay:3];
+    [self loadDataSource];
+    [self performSelector:@selector(doneLoadDataSource) withObject:nil afterDelay:3];
 }
 
 - (void)viewDidLoad
