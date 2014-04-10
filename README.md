@@ -60,6 +60,10 @@ Finally look the code:
 
 
 ```
+
+## Thanke you 
+TYDotIndicatorView created by [itouch2](https://github.com/itouch2)
+
 ## Lincense ##
 
 `XHNavigationItemLadingTitleView` is available under the MIT license. See the LICENSE file for more info.
