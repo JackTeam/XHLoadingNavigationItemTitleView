@@ -24,6 +24,7 @@
 		74FC21F318F66AAB002B55A5 /* XHNavigationItemLadingTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21F218F66AAB002B55A5 /* XHNavigationItemLadingTitleView.m */; };
 		74FC21F618F66AE8002B55A5 /* TYDotIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21F518F66AE8002B55A5 /* TYDotIndicatorView.m */; };
 		74FC21F918F66B1B002B55A5 /* UIViewController+XHLoadingNavigationItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21F818F66B1B002B55A5 /* UIViewController+XHLoadingNavigationItemTitle.m */; };
+		74FC21FC18F6716F002B55A5 /* XHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC21FB18F6716F002B55A5 /* XHRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		74FC21F518F66AE8002B55A5 /* TYDotIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDotIndicatorView.m; sourceTree = "<group>"; };
 		74FC21F718F66B1B002B55A5 /* UIViewController+XHLoadingNavigationItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XHLoadingNavigationItemTitle.h"; sourceTree = "<group>"; };
 		74FC21F818F66B1B002B55A5 /* UIViewController+XHLoadingNavigationItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XHLoadingNavigationItemTitle.m"; sourceTree = "<group>"; };
+		74FC21FA18F6716F002B55A5 /* XHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRootViewController.h; sourceTree = "<group>"; };
+		74FC21FB18F6716F002B55A5 /* XHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				74FC21C318F66A3E002B55A5 /* AppDelegate.h */,
 				74FC21C418F66A3E002B55A5 /* AppDelegate.m */,
+				74FC21FA18F6716F002B55A5 /* XHRootViewController.h */,
+				74FC21FB18F6716F002B55A5 /* XHRootViewController.m */,
 				74FC21D218F66A3E002B55A5 /* Images.xcassets */,
 				74FC21BB18F66A3E002B55A5 /* Supporting Files */,
 			);
@@ -274,6 +279,7 @@
 				74FC21F318F66AAB002B55A5 /* XHNavigationItemLadingTitleView.m in Sources */,
 				74FC21C518F66A3E002B55A5 /* AppDelegate.m in Sources */,
 				74FC21C118F66A3E002B55A5 /* main.m in Sources */,
+				74FC21FC18F6716F002B55A5 /* XHRootViewController.m in Sources */,
 				74FC21F618F66AE8002B55A5 /* TYDotIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
