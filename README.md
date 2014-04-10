@@ -1,4 +1,4 @@
-![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/XHNavigationItemLadingTitleView.gif)
+![image](https://github.com/JackTeam/XHNavigationItemLadingTitleView/raw/master/Screenshots/XHNavigationItemLadingTitleView.gif)
 
 XHNavigationItemLadingTitleView
 ===============================
