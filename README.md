@@ -26,14 +26,14 @@ pod 'XHNavigationItemLadingTitleView', '~> 0.1.0'
 ## How to use ##
 ```objc
 
-1、#import "UIViewController+XHLoadingNavigationItemTitle.h" to your Controller header        
+1. #import "UIViewController+XHLoadingNavigationItemTitle.h" to your Controller header        
 
 
-2、set the Controller title in viewDidLoad method， like normal setter.       
+2. set the Controller title in viewDidLoad method, like normal setter.       
 
-3、you can call startAnimationTitle display loading HUD for loadDatasource.         
+3. you can call startAnimationTitle display loading HUD for loadDatasource.         
 
-4、you can call stopAnimationTitle hide loading HUD for Done loadDataSource.         
+4. you can call stopAnimationTitle hide loading HUD for Done loadDataSource.         
 
 
 ```
